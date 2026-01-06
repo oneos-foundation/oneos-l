@@ -1,13 +1,13 @@
-# OneOS
+# OneOS-L
 
-**OneOS** is an experimental minimal Linux operating system built from scratch using **Buildroot**.  
+**OneOS-L** is an experimental minimal Linux operating system built from scratch using **Buildroot**.  
 The project is developed inside a Docker container and bootable via **QEMU**.  
 
 ---
 
 ## Overview
 
-OneOS demonstrates how to:
+OneOS-L demonstrates how to:
 
 - Build a custom Linux root filesystem  
 - Install and configure a bootloader (`extlinux` / `syslinux`)  
