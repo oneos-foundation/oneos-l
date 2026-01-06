@@ -1,20 +1,20 @@
-# OneLinux OS
+# OneOS
 
-**OneLinux OS** is an experimental minimal Linux operating system built from scratch using **Buildroot**.  
-The project was developed inside a Docker container and is bootable via **QEMU**.  
+**OneOS** is an experimental minimal Linux operating system built from scratch using **Buildroot**.  
+The project is developed inside a Docker container and bootable via **QEMU**.  
 
 ---
 
 ## Overview
 
-OneLinux OS demonstrates how to:
+OneOS demonstrates how to:
 
 - Build a custom Linux root filesystem  
 - Install and configure a bootloader (`extlinux` / `syslinux`)  
 - Create bootable disk images  
 - Test kernels in a virtual environment  
 
-It is intended primarily for **educational purposes** and experimentation with Linux internals.
+It is intended primarily for **educational purposes** and OS experimentation.
 
 ---
 
@@ -30,7 +30,7 @@ It is intended primarily for **educational purposes** and experimentation with L
 
 ## Goals
 
-- Provide a simple, reproducible environment for learning Linux boot process  
+- Provide a simple environment for learning the Linux boot process  
 - Allow testing of custom kernels and root filesystems  
 - Serve as a foundation for lightweight experimental OS projects  
 
@@ -38,8 +38,6 @@ It is intended primarily for **educational purposes** and experimentation with L
 
 ## Notes
 
-- The project is **experimental** and not intended for production use  
-- Designed for **learning and testing** rather than daily tasks  
-- Encourages understanding of bootloaders, kernel loading, and minimal OS design  
-
-****
+- **Experimental project**, not for production use  
+- Designed for **learning and testing**, not daily tasks  
+- Helps understand bootloaders, kernel loading, and minimal OS design  
